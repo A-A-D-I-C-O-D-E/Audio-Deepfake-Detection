@@ -1,0 +1,13 @@
+numpy
+pandas
+scipy
+librosa
+torch
+torchaudio
+transformers
+scikit-learn
+xgboost
+matplotlib
+seaborn
+jupyter
+tqdm
