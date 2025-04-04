@@ -26,6 +26,11 @@ This repository contains the implementation of an **Audio Deepfake Detection** m
 The dataset used in this project is **DEEP-VOICE**, which consists of AI-generated and real human speech samples. Additional datasets were referenced from:
 - [ASVspoof 5](https://zenodo.org/records/14498691)
 - flac_D of 6.6gb
+  
+   1️⃣ **Handling Unlabeled Data** – Since **flac_D** lacked labels, we analyzed metadata, extracted features, and used clustering techniques to separate real and fake audio samples.  
+
+   2️⃣ **Preprocessing & Labeling** – Some files were manually inspected, while feature-based classification helped in labeling data for effective model training.  
+
 
 
 
